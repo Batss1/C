@@ -1,8 +1,6 @@
 # Jogos em C
 
-
 Este repositório contém três jogos desenvolvidos durante o curso de Linguagem C na plataforma Alura: Adivinhação, Forca e Pacman. Cada jogo foi criado com o objetivo de praticar conceitos fundamentais da linguagem C, como controle de fluxo, funções e manipulação de strings.
-
 
 ## Jogos
 
