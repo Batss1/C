@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <conio.h>
 #include "fogefoge.h"
 #include "mapa.h"
 #include "ui.h"
@@ -133,10 +134,10 @@ int main() {
 	do {
 		printf("Tem pilula: %s\n", (tempilula? "SIM": "NAO"));
 		imprimemapa(&m);
-
+		
 		char comando;
-		scanf(" %c", &comando);
-
+		comando = getch();
+		
 		move(comando);
 		if (comando == BOMBA) 
 			explodepilula();
